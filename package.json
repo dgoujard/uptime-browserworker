@@ -1,0 +1,13 @@
+{
+  "name": "uptime-browserworker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "docker run --rm -t -v $(pwd):/app damien/node12-puppeteer:latest node index.js"
+  },
+  "dependencies": {
+    "minio": "^7.0.10",
+    "mongodb": "^3.3.0-beta2"
+  }
+}
