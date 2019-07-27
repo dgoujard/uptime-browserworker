@@ -113,7 +113,7 @@ async function runSitesLightHouse(sites){
                 }
             );
         }
-        console.log("Lighthouse end "+site.name+" "+site._id+" "+site._id);
+        console.log("Lighthouse end "+site.name+" "+site._id);
     }
 }
 
