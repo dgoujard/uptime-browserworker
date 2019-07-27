@@ -5,5 +5,15 @@
     "user": "",
     "password": "",
     "database": ""
+  },
+  "chromePath": "/usr/bin/google-chrome-unstable",
+  "screenWidth": 1920,
+  "screenHeight": 1080,
+  "minio": {
+    "bucket": "",
+    "host": "",
+    "useSSL": true,
+    "accessKey": "",
+    "secretKey": ""
   }
 }
